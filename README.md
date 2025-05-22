@@ -55,7 +55,7 @@ Ajuste as URLs conforme necessário para apontar para o seu backend.
 npm run dev
 \`\`\`
 
-A aplicação estará disponível em `http://localhost:3000`.
+A aplicação estará disponível em `http://localhost:3000` || `https://front-end-1-tdspa-sprint4.vercel.app/login`.
 
 ### 5. Build para produção
 
@@ -125,7 +125,8 @@ npm start
 
 1. Acesse a página de login (`/login`)
 2. Insira suas credenciais (email e senha)
-3. O sistema redirecionará automaticamente para o dashboard apropriado com base no seu cargo
+3. Usuarios recomendados para teste ( email: admin@ccr.com.br senha:admin1) com acesso a pagina admin possibilitando edição dos incidentes e acesso as paginas de um usuario padrão tambem e ( email: ana.costa@ccr.com.br senha: senha) usuario comum podendo apenas criar incidentes e editar suas proprias infos
+4. O sistema redirecionará automaticamente para o dashboard apropriado com base no seu cargo
 
 ### Registro de Incidentes
 
