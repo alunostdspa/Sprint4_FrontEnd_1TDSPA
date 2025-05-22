@@ -7,7 +7,7 @@ export default function Integrantes() {
     {
       id: 1,
       name: "Fernando Nachtigall Tessmann",
-      rm: "RM559617 1TDSPR",
+      rm: "RM559617 - 1TDSPR",
       github: "ftessmann",
       linkedin: "/fernando-tessmann-75086bb6",
       image: "/imagens/integrante_F.jpg",
@@ -15,7 +15,7 @@ export default function Integrantes() {
     {
       id: 2,
       name: "Nome: Ruan Nunes Gaspar",
-      rm: "RM559567 1TDSPA",
+      rm: "RM559567 - 1TDSPA",
       github: "RuanGaspar-TDSPA",
       linkedin: "/ruan-gaspar-5664a0222",
       image: "/imagens/integrante_RU.jpg",
@@ -23,9 +23,9 @@ export default function Integrantes() {
     {
       id: 3,
       name: "Rodrigo Paes Morales",
-      rm: "RM560209 1TDSPA",
+      rm: "RM560209 - 1TDSPA",
       github: "RodrigoPMorales",
-      linkedin: "/rodrigo-morales-b26698203",
+      linkedin: "/rodrigo-paes-morales-b26698203/",
       image: "/imagens/integrante_RO.jpg",
     },
   ]
@@ -51,7 +51,7 @@ export default function Integrantes() {
               </div>
 
               <h2 className="text-xl font-semibold text-gray-800 mb-1">{member.name}</h2>
-
+              <h2 className="text-xl font-semibold text-gray-800 mb-1"> {member.rm} </h2>
               <div className="flex space-x-4 mt-2">
                 <a
                   href={`https://github.com/${member.github}`}
